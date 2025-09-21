@@ -21,9 +21,8 @@
 
 <h2>🛠️ Installation</h2>
 <p>Clone the repository:</p>
-<pre><code>git clone https://github.com/youfa-lab/Text-to-Speech.git
-cd Text-to-Speech
-pip install -r requirements.txt</code></pre>
+<pre><code>git clone https://github.com/youfa-lab/-Text-to-Speech/blob/main/wiki.py
+</code></pre>
 
 <h2>📌 Usage</h2>
 
