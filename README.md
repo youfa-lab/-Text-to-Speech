@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Text to Speech (TTS)</title>
 </head>
 <body>
 
@@ -28,20 +27,8 @@ pip install -r requirements.txt</code></pre>
 
 <h2>📌 Usage</h2>
 
-<h3>1️⃣ Command Line (CLI)</h3>
-<pre><code>python main.py --text "Hello world" --lang en --output hello.mp3</code></pre>
-
-<h3>2️⃣ Python Module</h3>
-<pre><code>from tts import TextToSpeech
-
-tts = TextToSpeech(lang="en")
-tts.speak("Hello world")</code></pre>
-
-<h3>3️⃣ Flask API (Optional)</h3>
-<pre><code>python app.py</code></pre>
-<p>Send POST request:</p>
-<pre><code>POST http://localhost:5000/tts
-Content-Type: application/json
+<h3>1️⃣ </h3>
+<pre><code> pip install pyttsx3 </code></pre>
 
 {
   "text": "Hello world",
